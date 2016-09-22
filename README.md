@@ -1,2 +1,9 @@
 # book-food
-book food in the calendar form your favorite eating house
+
+The mobile app for booking food, that use food-api interface.
+
+## technology stack:
+
+Tabris JS
+
+http://tabrisjs.com/
