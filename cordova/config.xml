@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="bookfood" version="0.1.0">
+  <name>BookFood</name>
+  <description>
+    App for booking the food preparation.
+  </description>
+  <author email="mihu@wsx.pl">
+    flow2code
+  </author>
+</widget>
