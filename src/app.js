@@ -1,7 +1,17 @@
 var page = new tabris.Page({
-  title: 'Example App',
+  title: 'Book Food',
   topLevel: true
 });
+
+new tabris.TextInput({
+  layoutData: {top: 20, left: "20%", right: "20%"},
+  message: "Type here, then confirm"
+}).on("accept", function(widget, text) {
+  new tabris.TextView({
+    layoutData: {top: "prev() 20", left: "20%"},
+    text: text
+  }).appendTo(page);
+}).appendTo(page);
 
 var button = new tabris.Button({
   centerX: 0, top: 100,
